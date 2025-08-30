@@ -1,10 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import { SiFlutter, SiCplusplus } from "react-icons/si";
+
+
 
 export const links = [
   {
@@ -35,56 +34,73 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    title: "Front-End Developer",
+    location: "Hyderabad, Telangana",
+    description: "Interned at Soaron Aerospace Pvt Ltd, an Indian startup developing UAV technologies, where I built the frontend of a drone booking platform using Flutter.",
+    icon: React.createElement(SiFlutter, { size: 30 }),
+    date: "Apr 2024 - May 2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Software Developer",
+    location: "Mumbai, Maharashtra",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked on building a registration portal for IIT Bombay Research Park using ReactJs and Django.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Software Engineer",
+    location: "Bengaluru, Karnataka",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I'm working as a embedded software engineer at Global Logic, a Hitachi Group company.",
+    icon: React.createElement(SiCplusplus, { size: 30 }),
+    date: "2025 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Society Management App",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Developed a platform for housing society management and to handle resident data and provide feature to add community blogs and notices.",
+    tags: ["PostgreSQL", "Express.js", "React", "Node.js"],
+    imageUrl: '/images/society_management.png',
+    githubUrl: "https://github.com/anukoolvikram/nivaso-latest",
+    demoUrl: "https://nivaso-frontend.onrender.com/",
   },
+  // {
+  //   title: "Realtime Coding Editor",
+  //   description:
+  //     "Built a collaborative real-time editor using React and Node.js with WebSockets, enabling 10+ concurrent users. Implemented fast synchronization with ~100ms latency and designed a dynamic room management system to handle sessions and user state tracking.",
+  //   tags: ["React", "Node.js", "WebSockets", "Express.js", "Framer Motion"],
+  //   imageUrl: '/images/algo.png',
+  //   githubUrl: "https://github.com/anukoolvikram/realtime-editor-websockets",
+  //   demoUrl: "https://anukoolvikram.github.io/algo-visualizer/",
+  // },
+  // {
+  //   title: "Amazon Price Tracker",
+  //   description:
+  //     "Created a full-stack price tracking app using Next.js with a dashboard to monitor 100+ product prices. Automated email alerts via Nodemailer and cron jobs for price drops every 24 hours. Integrated Bright Data to bypass anti-bot restrictions, improving accuracy by 20%.",
+  //   tags: ["Next.js", "Node.js", "Nodemailer", "Cron Jobs", "Bright Data", "Tailwind"],
+  //   imageUrl: '/images/algo.png',
+  //   githubUrl: "https://github.com/anukoolvikram/algo-visualizer",
+  //   demoUrl: "https://anukoolvikram.github.io/algo-visualizer/",
+  // },
   {
-    title: "rmtDev",
+    title: "Algorithm Visualizer",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Developed an interactive visualization tool for sorting, pathfinding, and graph traversal. Added play, pause, step, and speed controls for better user experience.",
+    tags: ["React.js", "Algorithms"],
+    imageUrl: '/images/algo.png',
+    githubUrl: "https://github.com/anukoolvikram/algo-visualizer",
+    demoUrl: "https://anukoolvikram.github.io/algo-visualizer/",
   },
 ] as const;
 
+
 export const skillsData = [
+  "C++",
+  "Python",
   "HTML",
   "CSS",
   "JavaScript",
@@ -92,16 +108,15 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
+  "Express.js",
   "Git",
   "Tailwind",
   "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
   "Python",
   "Django",
-  "Framer Motion",
+  "Flutter"
 ] as const;

@@ -19,30 +19,36 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        I'm a <span className="font-medium">Software Engineer</span> currently working at{" "}
+        <span className="font-medium">GlobalLogic</span>, a{" "}
+        <span className="font-medium">Hitachi Group Company</span>, in Bengaluru. I'm
+        graduated with a <span className="font-medium">B.Tech from IIT Bombay</span> in{" "}
+        <span className="font-medium">2025</span>.
       </p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+      <p className="mb-3">
+        I specialize in building <span className="font-medium">full-stack web applications</span> using the{" "}
+        <span className="font-medium">tech stack including</span> PostgreSQL, Express.js, React, Node.js. Along the
+        way, I've worked with <span className="font-medium"> serverless deployment and AWS</span> with strong{" "}
+        <span className="font-medium">DevOps practices</span>.
+      </p>
+
+      <p className="mb-3">
+        <span className="italic">My favorite part of programming</span> is solving
+        challenging problems and turning ideas into products. I enjoy working with{" "}
+        <span className="font-medium">C++, Python, and JavaScript</span>, and I regularly
+        sharpen my skills by solving <span className="font-medium">Data Structures & Algorithms</span>{" "}
+        problems in my free time.
+      </p>
+
+      <p className="mb-3">
+        Lately, I've been exploring{" "}
+        <span className="font-medium">Artificial Intelligence</span> and{" "}
+        <span className="font-medium">Machine Learning</span> because I'm fascinated by
+        building systems that can <span className="underline">learn, adapt, and evolve</span>.
+        My goal is to transition into a role where I can work on{" "}
+        <span className="font-medium">AI-powered applications</span> and contribute to
+        impactful products.
       </p>
     </motion.section>
   );
