@@ -68,15 +68,15 @@ export const projectsData = [
     githubUrl: "https://github.com/anukoolvikram/nivaso-latest",
     demoUrl: "https://nivaso-frontend.onrender.com/",
   },
-  // {
-  //   title: "Realtime Coding Editor",
-  //   description:
-  //     "Built a collaborative real-time editor using React and Node.js with WebSockets, enabling 10+ concurrent users. Implemented fast synchronization with ~100ms latency and designed a dynamic room management system to handle sessions and user state tracking.",
-  //   tags: ["React", "Node.js", "WebSockets", "Express.js", "Framer Motion"],
-  //   imageUrl: '/images/algo.png',
-  //   githubUrl: "https://github.com/anukoolvikram/realtime-editor-websockets",
-  //   demoUrl: "https://anukoolvikram.github.io/algo-visualizer/",
-  // },
+  {
+    title: "Realtime Coding Editor",
+    description:
+      "Built a collaborative real-time editor using React and Node.js with WebSockets. Allows feature to write and compile codes in Javascript and Python.",
+    tags: ["React", "Node.js", "WebSockets"],
+    imageUrl: '/images/realtime.png',
+    githubUrl: "https://github.com/anukoolvikram/realtime-coding-editor",
+    demoUrl: "https://realtimecodingeditor.netlify.app/",
+  },
   // {
   //   title: "Amazon Price Tracker",
   //   description:
