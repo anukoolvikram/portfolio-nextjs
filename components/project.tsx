@@ -53,21 +53,21 @@ export default function Project({
 
           {/* Links */}
           <div className="flex gap-4 mt-5">
-            {/* <a
+             <a
               href={githubUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-gray-800 text-white px-4 py-2 rounded-lg hover:bg-gray-900 transition"
             >
-              <FaGithub size={18} /> View Code
-            </a> */}
+              <FaGithub size={18} /> Code
+            </a> 
             <a
               href={demoUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition"
             >
-              <FaExternalLinkAlt size={16} /> Live Demo
+              <FaExternalLinkAlt size={16} /> Demo
             </a>
           </div>
         </div>
