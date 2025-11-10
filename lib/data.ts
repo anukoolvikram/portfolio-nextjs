@@ -32,14 +32,15 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Front-End Developer",
-    location: "Hyderabad, Telangana",
-    description: "Interned at Soaron Aerospace Pvt Ltd, where I used Flutter to build the frontend of a drone booking platform, and integrated backend APIs.",
+    title: "Software Engineer (Full time)",
+    location: "Bengaluru, Karnataka",
+    description:
+      "I am working on a high-tech platform for a US-based client as a full stack developer. As of now, build several UI components using Vue.js. Also worked on writing API endpoints using Python. Helped in restructuring of microservices, to use S3 bucket and DynamoDB of AWS.",
     icon: React.createElement(CgWorkAlt),
-    date: "Apr 2024 - May 2024",
+    date: "Aug 2025 - present",
   },
   {
-    title: "Software Developer",
+    title: "Software Developer (Internship)",
     location: "Mumbai, Maharashtra",
     description:
       "Built a platform for the registration and allotment of research projects at IIT Bombay Research Park. Used ReactJs and Django.",
@@ -47,12 +48,11 @@ export const experiencesData = [
     date: "Jul 2024 - Sep 2024",
   },
   {
-    title: "Software Engineer",
-    location: "Bengaluru, Karnataka",
-    description:
-      "I am working on a high-tech platform for a US-based client as a full stack developer. As of now, build several UI components using Vue.js. Also worked on writing API endpoints using Python. Helped in restructuring of microservices, to use S3 bucket and DynamoDB of AWS.",
+    title: "Front-End Developer (Internship)",
+    location: "Hyderabad, Telangana",
+    description: "Interned at Soaron Aerospace Pvt Ltd, where I used Flutter to build the frontend of a drone booking platform, and integrated backend APIs.",
     icon: React.createElement(CgWorkAlt),
-    date: "Aug 2025 - present",
+    date: "Apr 2024 - May 2024",
   },
 ] as const;
 
